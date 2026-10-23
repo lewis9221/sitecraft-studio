@@ -1,0 +1,34 @@
+
+/* Sitecraft game studio tools. All styles are scoped: exported websites retain their own design. */
+#gameStudio .sg-top{background:linear-gradient(100deg,#101b30,#17213b);border-bottom:1px solid #344664;gap:10px}
+#gameStudio .sg-main{min-height:0}#gameStudio .sg-side{scrollbar-color:#394965 #111a2b}
+#gameStudio .sg-subtitle{letter-spacing:.11em}
+#gameStudio .sg-stage{display:flex;flex-direction:column;overflow:hidden}#gameStudio .sg-stage iframe{flex:1;min-height:0;height:auto}#gameStudio .sg-studio-viewbar{top:61px;left:12px;right:12px;pointer-events:auto}#gameStudio .sg-pro-toolrow{display:flex;flex:none;position:relative;z-index:5;align-items:center;gap:5px;flex-wrap:wrap;padding:7px 10px;background:#0c182b;border-bottom:1px solid #304260;box-shadow:0 4px 12px #0002}
+#gameStudio .sg-pro-toolrow button,#gameStudio .sg-pro-toolrow select{background:#192a43;color:#eef6ff;border:1px solid #3a5172;border-radius:8px;padding:7px 9px;font-size:12px;cursor:pointer}
+#gameStudio .sg-pro-toolrow button.active{background:#2b5873;border-color:#61d7f8;color:#dfffff;box-shadow:inset 0 0 0 1px #44d4e844}
+#gameStudio .sg-pro-toolrow button:disabled{opacity:.45;cursor:not-allowed}
+#gameStudio .sg-pro-toolrow label{display:flex;align-items:center;gap:5px;margin:0;color:#b7cde7;font-size:11px}
+#gameStudio .sg-pro-toolrow input{accent-color:#74e5d4}
+#gameStudio .sg-pro-toolrow .sg-pro-sep{height:20px;width:1px;background:#334a66;margin:0 3px}
+#gameStudio .sg-layer-tree{display:grid;gap:4px;margin-top:8px}
+#gameStudio .sg-tree-item{display:flex;align-items:center;gap:6px;border:1px solid #32415e;background:#142237;border-radius:9px;padding:5px 6px;color:#f0f7ff;min-width:0}
+#gameStudio .sg-tree-item.active{border-color:#56d9ee;background:#193a4b}
+#gameStudio .sg-tree-item input[type="checkbox"]{accent-color:#68d4e8;width:15px;height:15px;flex:0 0 auto}
+#gameStudio .sg-tree-item .sg-tree-name{flex:1;min-width:0;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;background:transparent;border:0;text-align:left;color:inherit;font-size:12px;cursor:pointer}
+#gameStudio .sg-tree-item .sg-tree-icon{border:0;background:transparent;color:#b5ceef;border-radius:5px;padding:3px 4px;cursor:pointer;flex:0 0 auto}
+#gameStudio .sg-tree-item .sg-tree-icon.off{color:#7890a7}
+#gameStudio .sg-tree-folder{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:700;color:#90afcb;margin:12px 0 5px;padding:0 3px}
+#gameStudio .sg-pro-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:8px 0}
+#gameStudio .sg-pro-buttons button{padding:9px 8px;border:1px solid #395573;background:#182b43;color:#e9f4ff;border-radius:9px;cursor:pointer}
+#gameStudio .sg-pro-buttons button:hover,#gameStudio .sg-tree-icon:hover{background:#244463}
+#gameStudio .sg-pro-empty{color:#a4bcd2;background:#101f34;border:1px dashed #365071;border-radius:11px;padding:14px;font-size:12px}
+#gameStudio .sg-pro-card{border:1px solid #355271;background:#14263d;border-radius:11px;padding:12px;margin:9px 0;color:#dce9fa}
+#gameStudio .sg-pro-card small{display:block;color:#9fbbd4;line-height:1.6}
+#gameStudio .sg-pro-status{font-size:11px;color:#a5c8da;margin-left:auto;white-space:nowrap}
+#gameStudio .sg-pro-flag{font-size:10px;border:1px solid #2d6a74;background:#16434e;padding:3px 6px;border-radius:99px;color:#8af3ec}
+#gameStudio .sg-game-search{width:100%;padding:10px;background:#0e1b30;color:#f5faff;border:1px solid #425879;border-radius:9px;margin-bottom:5px}
+#gameStudio .sg-pro-toolbar-group{font-size:10px;letter-spacing:.08em;color:#8eaac6;font-weight:700}
+#gameStudio .sg-inspector-quick{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:8px 0}
+#gameStudio .sg-inspector-quick button{border:1px solid #3a5877;background:#16354d;color:#effaff;border-radius:7px;padding:7px 10px;cursor:pointer}
+#gameStudio .sg-pro-help{font-size:11px;color:#b7ccdf;margin:7px 0}
+@media(max-width:950px){#gameStudio .sg-pro-toolrow{overflow:auto;flex-wrap:nowrap}#gameStudio .sg-pro-status{display:none}}
